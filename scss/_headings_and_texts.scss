@@ -1,0 +1,16 @@
+@import "./variable/variable";
+ul {
+    @include reset-list;
+}
+
+a {
+    @include style-anchor;
+}
+
+h2 {
+    @include style-h2;
+}
+
+.article_text {
+    @include style-paragraph;
+}

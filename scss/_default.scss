@@ -9,14 +9,6 @@ div.container {
     padding-inline-start: $section-padding-horizontal;
 }
 
-ul {
-    @include reset-list;
-}
-
-a {
-    @include style-anchor;
-}
-
 @media (min-width: 1114px) {
     div.container {
         padding: 0;
