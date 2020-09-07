@@ -1,0 +1,29 @@
+@import "./variable/variable";
+.photo_detailes {
+    padding-block-start: 92px;
+    padding-block-end: 75px;
+}
+
+.detail_list_container {
+    display: grid;
+    row-gap: 40px;
+    column-gap: 106px;
+    li:nth-of-type(1) {
+        grid-row-start: 1;
+    }
+    li:nth-of-type(2) {
+        grid-column-start: 2;
+    }
+    small,
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    small {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    p {
+        color: #000000;
+        font-family: 'dm-sans-bold';
+    }
+}

@@ -152,11 +152,34 @@ h2 {
   line-height: 32px; }
 
 .big_carve {
-  width: 100%; }
+  width: 100%;
+  border-radius: .5rem; }
 
-img {
+li img {
   border-radius: .5rem; }
 
 .image_container {
   display: flex;
   flex-direction: row; }
+
+.photo_detailes {
+  padding-block-start: 92px;
+  padding-block-end: 75px; }
+
+.detail_list_container {
+  display: grid;
+  row-gap: 40px;
+  column-gap: 106px; }
+  .detail_list_container li:nth-of-type(1) {
+    grid-row-start: 1; }
+  .detail_list_container li:nth-of-type(2) {
+    grid-column-start: 2; }
+  .detail_list_container small,
+  .detail_list_container p {
+    font-size: 16px;
+    line-height: 24px; }
+  .detail_list_container small {
+    color: rgba(0, 0, 0, 0.5); }
+  .detail_list_container p {
+    color: #000000;
+    font-family: 'dm-sans-bold'; }
