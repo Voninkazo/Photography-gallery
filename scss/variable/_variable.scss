@@ -4,6 +4,7 @@ $heading-font-family:'dm-serif-display-400';
 $default-white-color: #ffffff;
 $small-link-font: 16px;
 $small-link-height:24px;
+$default-black-color:#000000;
 @mixin style-container {
     max-width: 1114px;
     margin: auto;
@@ -24,6 +25,7 @@ $small-link-height:24px;
     font-size: 52px;
     line-height: 64px;
     font-weight: normal;
+    margin: 0;
 }
 
 @mixin style-paragraph {

@@ -145,7 +145,8 @@ h2 {
   color: #000000;
   font-size: 52px;
   line-height: 64px;
-  font-weight: normal; }
+  font-weight: normal;
+  margin: 0; }
 
 .article_text {
   font-size: 18px;
@@ -183,3 +184,16 @@ li img {
   .detail_list_container p {
     color: #000000;
     font-family: 'dm-sans-bold'; }
+
+.carve-information {
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000; }
+
+.experience_information {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: normal;
+  padding-block-start: 31px;
+  padding-block-end: 31px; }
