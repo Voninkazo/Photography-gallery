@@ -1,10 +1,35 @@
 @import "./variable/variable";
+:root {
+    --header-padd-vertical: 16px;
+}
+
 body>header {
     background-color: $bg-color-blue;
+    padding-block-end: var(--header-padd-vertical);
+    padding-block-start: var(--header-padd-vertical);
+}
+
+header h1 {
+    font-family: $heading-font-family;
+    font-weight: normal;
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+header h1 a {
+    color: #ffffff;
+    @include style-anchor;
 }
 
 body>header>div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon_menu img {
+    width: 20px;
+    height: 16px;
 }

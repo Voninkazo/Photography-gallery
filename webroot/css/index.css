@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'dm-serif-display-400';
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
   src: local("dm-serif-display-400"), url(../fonts/dm-serif-display-400.woff) format("woff"), url(../fonts/dm-serif-dispaly-400.woff2) format("woff2"); }
 
@@ -25,13 +25,42 @@
 body {
   font-family: 'dm-sans-regular'; }
 
+.container {
+  padding-inline-end: 14px;
+  padding-inline-start: 14px; }
+
+:root {
+  --header-padd-vertical: 16px; }
+
 body > header {
-  background-color: #434CCC; }
+  background-color: #434CCC;
+  padding-block-end: var(--header-padd-vertical);
+  padding-block-start: var(--header-padd-vertical); }
+
+header h1 {
+  font-family: "dm-serif-display-400";
+  font-weight: normal;
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px; }
+
+header h1 a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none; }
 
 body > header > div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.icon_menu img {
+  width: 20px;
+  height: 16px; }
 
 body > header nav {
+  display: none; }
+
+[type="checkbox"] {
   display: none; }

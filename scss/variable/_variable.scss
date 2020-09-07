@@ -1,5 +1,12 @@
 $bg-color-blue: #434CCC;
+$section-padding-horizontal: 14px;
+$heading-font-family:'dm-serif-display-400';
 @mixin style-container {
     max-width: 1114px;
     margin: auto;
+}
+
+@mixin style-anchor {
+    text-transform: uppercase;
+    text-decoration: none;
 }

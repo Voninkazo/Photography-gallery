@@ -1,3 +1,8 @@
 body {
     font-family: 'dm-sans-regular';
 }
+
+.container {
+    padding-inline-end: $section-padding-horizontal;
+    padding-inline-start: $section-padding-horizontal;
+}
