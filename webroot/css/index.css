@@ -23,7 +23,8 @@
   src: local("dm-sans-italic"), url(../fonts/dm-sans-italic.woff) format("woff"), url(../fonts/dm-sans-italic.woff2) format("woff2"); }
 
 body {
-  font-family: 'dm-sans-regular'; }
+  font-family: 'dm-sans-regular';
+  background-color: rgba(67, 76, 204, 0.05); }
 
 div.container {
   padding-inline-end: 14px;
@@ -130,3 +131,11 @@ body > [type="checkbox"]:checked ~ header nav {
     flex-direction: row; }
     .header_links li {
       margin-inline-start: 26px; } }
+
+.masthead_wrapper {
+  padding-block-start: 31px;
+  padding-block-end: 61px; }
+  .masthead_wrapper a {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    line-height: 24px; }
