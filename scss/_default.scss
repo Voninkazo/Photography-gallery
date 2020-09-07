@@ -1,8 +1,17 @@
+@import "./variable/variable";
 body {
     font-family: 'dm-sans-regular';
 }
 
-.container {
+div.container {
     padding-inline-end: $section-padding-horizontal;
     padding-inline-start: $section-padding-horizontal;
+}
+
+ul {
+    @include reset-list;
+}
+
+a {
+    @include style-anchor;
 }

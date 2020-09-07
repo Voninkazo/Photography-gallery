@@ -25,9 +25,16 @@
 body {
   font-family: 'dm-sans-regular'; }
 
-.container {
+div.container {
   padding-inline-end: 14px;
   padding-inline-start: 14px; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
 
 :root {
   --header-padd-vertical: 16px; }
@@ -46,7 +53,6 @@ header h1 {
 
 header h1 a {
   color: #ffffff;
-  text-transform: uppercase;
   text-decoration: none; }
 
 body > header > div {
@@ -65,9 +71,17 @@ body header > div {
 body > header nav {
   display: none; }
 
+.header_links {
+  display: flex;
+  flex-direction: column; }
+  .header_links a {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px; }
+
 header nav {
   padding: 1rem;
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   z-index: 3;
   border-radius: .5rem;

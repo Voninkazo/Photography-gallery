@@ -7,9 +7,19 @@ body>header nav {
     display: none;
 }
 
+.header_links {
+    display: flex;
+    flex-direction: column;
+    a {
+        color: $default-white-color;
+        font-size: $small-link-font;
+        line-height: $small-link-height;
+    }
+}
+
 header nav {
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     z-index: 3;
     border-radius: .5rem;

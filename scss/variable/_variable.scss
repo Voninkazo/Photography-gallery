@@ -1,12 +1,19 @@
 $bg-color-blue: #434CCC;
 $section-padding-horizontal: 14px;
 $heading-font-family:'dm-serif-display-400';
+$default-white-color: #ffffff;
+$small-link-font: 16px;
+$small-link-height:24px;
 @mixin style-container {
     max-width: 1114px;
     margin: auto;
 }
 
 @mixin style-anchor {
-    text-transform: uppercase;
     text-decoration: none;
+}
+
+@mixin reset-list {
+    list-style: none;
+    padding: 0;
 }
