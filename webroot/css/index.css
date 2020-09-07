@@ -1,0 +1,10 @@
+body > header {
+  background-color: #434CCC; }
+
+body > header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+body > header nav {
+  display: none; }

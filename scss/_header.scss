@@ -1,0 +1,10 @@
+@import "./variable/variable";
+body>header {
+    background-color: $bg-color-blue;
+}
+
+body>header>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
