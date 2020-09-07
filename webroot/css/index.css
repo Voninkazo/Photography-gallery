@@ -150,3 +150,13 @@ h2 {
 .article_text {
   font-size: 18px;
   line-height: 32px; }
+
+.big_carve {
+  width: 100%; }
+
+img {
+  border-radius: .5rem; }
+
+.image_container {
+  display: flex;
+  flex-direction: row; }
