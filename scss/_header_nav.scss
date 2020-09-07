@@ -10,6 +10,7 @@ body>header nav {
 .header_links {
     display: flex;
     flex-direction: column;
+    margin: 0;
     a {
         color: $default-white-color;
         font-size: $small-link-font;
@@ -46,4 +47,28 @@ body>[type="checkbox"]:checked~header nav {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s;
     transform: translateX(-20%) translateY(30%);
+}
+
+@media (min-width: 1114px) {
+    body>header nav {
+        padding: 0;
+        background: none;
+        box-shadow: none;
+        transform: none;
+        display: block;
+        position: relative;
+    }
+    header nav {
+        width: fit-content;
+        height: fit-content;
+    }
+    header label {
+        visibility: hidden;
+    }
+    .header_links {
+        flex-direction: row;
+        li {
+            margin-inline-start: 26px;
+        }
+    }
 }

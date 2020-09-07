@@ -36,6 +36,12 @@ ul {
 a {
   text-decoration: none; }
 
+@media (min-width: 1114px) {
+  div.container {
+    padding: 0;
+    max-width: 1114px;
+    margin: auto; } }
+
 :root {
   --header-padd-vertical: 16px; }
 
@@ -58,8 +64,7 @@ header h1 a {
 body > header > div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap; }
+  justify-content: space-between; }
 
 .icon_menu img {
   width: 20px;
@@ -73,7 +78,8 @@ body > header nav {
 
 .header_links {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin: 0; }
   .header_links a {
     color: #ffffff;
     font-size: 16px;
@@ -106,3 +112,21 @@ body > [type="checkbox"]:checked ~ header nav {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s;
   transform: translateX(-20%) translateY(30%); }
+
+@media (min-width: 1114px) {
+  body > header nav {
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    transform: none;
+    display: block;
+    position: relative; }
+  header nav {
+    width: fit-content;
+    height: fit-content; }
+  header label {
+    visibility: hidden; }
+  .header_links {
+    flex-direction: row; }
+    .header_links li {
+      margin-inline-start: 26px; } }

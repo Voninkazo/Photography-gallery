@@ -15,3 +15,10 @@ ul {
 a {
     @include style-anchor;
 }
+
+@media (min-width: 1114px) {
+    div.container {
+        padding: 0;
+        @include style-container;
+    }
+}
