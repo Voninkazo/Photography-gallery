@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'dm-sans-regular';
+    font-weight: 400;
+    font-style: normal;
+    src: local('dm-sans-regular'), url(../fonts/dm_sans_400.woff) format('woff'), url(../fonts/dm_sans_400.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'dm-sans-bold';
+    font-weight: 600;
+    font-style: normal;
+    src: local('dm-sans-bold'), url(../fonts/dm-sans-600.woff) format('woff'), url(../fonts/dm-sans-600.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'dm-serif-display-400';
+    font-weight: 400;
+    font-style: normal;
+    src: local('dm-serif-display-400'), url(../fonts/dm-serif-display-400.woff) format('woff'), url(../fonts/dm-serif-dispaly-400.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'dm-sans-italic';
+    font-weight: normal;
+    font-style: italic;
+    src: local('dm-sans-italic'), url(../fonts/dm-sans-italic.woff) format('woff'), url(../fonts/dm-sans-italic.woff2) format('woff2');
+}
