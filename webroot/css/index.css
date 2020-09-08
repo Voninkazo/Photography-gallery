@@ -133,7 +133,8 @@ body > [type="checkbox"]:checked ~ header nav {
 
 ul {
   list-style: none;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
 
 a {
   text-decoration: none; }
@@ -161,7 +162,7 @@ li img {
   display: flex;
   flex-direction: row; }
 
-.photo_detailes {
+.photo_details {
   padding-block-start: 92px;
   padding-block-end: 75px; }
 
@@ -183,6 +184,11 @@ li img {
     color: #000000;
     font-family: 'dm-sans-bold'; }
 
+@media (min-width: 1114px) {
+  .photo_details {
+    padding-block-start: 89px;
+    padding-block-end: 206; } }
+
 .information_section {
   padding-block-end: 106px; }
 
@@ -198,6 +204,14 @@ li img {
   mix-blend-mode: normal;
   padding-block-start: 31px;
   padding-block-end: 31px; }
+
+@media (min-width: 1114px) {
+  .article_information {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .carve_details {
+    padding-block-start: 87px;
+    padding-block-end: 76px; } }
 
 .icon_list_container {
   display: flex;

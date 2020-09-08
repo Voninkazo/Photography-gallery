@@ -1,5 +1,5 @@
 @import "./variable/variable";
-.photo_detailes {
+.photo_details {
     padding-block-start: 92px;
     padding-block-end: 75px;
 }
@@ -25,5 +25,12 @@
     p {
         color: #000000;
         font-family: 'dm-sans-bold';
+    }
+}
+
+@media (min-width: 1114px) {
+    .photo_details {
+        padding-block-start: 89px;
+        padding-block-end: 206;
     }
 }
