@@ -250,7 +250,7 @@ li img {
 div.subscribe {
   padding-block-start: 44px; }
 
-@media (min-width: 114px) {
+@media (min-width: 1114px) {
   .section_subscribe > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
