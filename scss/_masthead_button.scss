@@ -3,8 +3,6 @@
     padding-block-start: 31px;
     padding-block-end: 61px;
     a {
-        color: rgba(0, 0, 0, 0.5);
-        font-size: $small-link-font;
-        line-height: $small-link-height;
+        @include gray-paragraph;
     }
 }

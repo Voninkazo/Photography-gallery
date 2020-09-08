@@ -24,9 +24,7 @@
         }
         
         .place {
-            font-size: $small-link-font;
-            line-height: $small-link-height;
-            color: rgba(0, 0, 0, 0.5);
+            @include gray-paragraph;
         }
         
         .date {

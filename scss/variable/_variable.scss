@@ -41,3 +41,9 @@ $default-black-color:#000000;
     font-weight: normal;
     text-transform: uppercase;
 }
+
+@mixin gray-paragraph {
+    font-size: $small-link-font;
+    line-height: $small-link-height;
+    color: rgba(0, 0, 0, 0.5);
+}

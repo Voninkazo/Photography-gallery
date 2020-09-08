@@ -12,9 +12,7 @@
         @include main-heading;
     }
     p {
-        font-size: $small-link-font;
-        line-height: $small-link-height;
-        color: rgba(0, 0, 0, 0.5);
+        @include gray-paragraph;
         margin: 0;
         padding-block-start: 22px;
         padding-block-end: calc(78px / 2);

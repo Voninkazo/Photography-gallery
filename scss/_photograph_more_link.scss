@@ -5,9 +5,7 @@ div.photograph_more_links {
     ul li {
         padding-block-start: 7px;
         a {
-            color: rgba(0, 0, 0, 0.5);
-            font-size: $small-link-font;
-            line-height: $small-link-height;
+            @include gray-paragraph;
         }
     }
     ul li:nth-of-type(1) {

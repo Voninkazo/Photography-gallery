@@ -128,9 +128,9 @@ body > [type="checkbox"]:checked ~ header nav {
   padding-block-start: 31px;
   padding-block-end: 61px; }
   .masthead_wrapper a {
-    color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
-    line-height: 24px; }
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5); }
 
 ul {
   list-style: none;
@@ -373,9 +373,9 @@ div.photograph_more_links {
   div.photograph_more_links ul li {
     padding-block-start: 7px; }
     div.photograph_more_links ul li a {
-      color: rgba(0, 0, 0, 0.5);
       font-size: 16px;
-      line-height: 24px; }
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.5); }
   div.photograph_more_links ul li:nth-of-type(1) {
     font-family: 'dm-sans-bold';
     padding-block-end: calc(23px - 7px); }
