@@ -1,0 +1,32 @@
+@import "./variable/variable";
+:root {
+    --btn-padding-vertical-start: 13px;
+    --btn-padding-vertical-end: 11px;
+}
+
+.email_input {
+    display: flex;
+    flex-direction: column;
+    label {
+        font-family: 'dm-sans-bold';
+        font-size: 12px;
+        line-height: 16px;
+        color: $default-black-color;
+        text-transform: uppercase;
+        padding-block-end: 12px;
+    }
+    input {
+        background: $default-white-color;
+        border: 1px solid #DADADA;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding-inline-start: 16px;
+        padding-block-start: var(--btn-padding-vertical-start);
+        padding-block-end: var(--btn-padding-vertical-end);
+    }
+     ::placeholder {
+        font-size: $small-link-font;
+        line-height: $small-link-height;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}

@@ -1,0 +1,19 @@
+@import "./variable/variable";
+:root {
+    --btn-padding-vertical-start: 13px;
+    --btn-padding-vertical-end: 11px;
+}
+
+.subscribe_button {
+    background-color: $bg-color-blue;
+    text-align: center;
+    border-radius: 5px;
+    padding-block-start: var(--btn-padding-vertical-start);
+    padding-block-end: var(--btn-padding-vertical-end);
+    width: 170px;
+    a {
+        font-size: $small-link-font;
+        line-height: $small-link-height;
+        color: $default-white-color;
+    }
+}
