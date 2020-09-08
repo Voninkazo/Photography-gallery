@@ -1,0 +1,14 @@
+@import "./variable/variable";
+.icon_list_container {
+    display: flex;
+    flex-direction: row;
+    span {
+        display: none;
+    }
+    li:not(:first-child) {
+        margin-inline-start: 18px;
+    }
+    li a svg:hover {
+        fill: $bg-color-blue;
+    }
+}

@@ -183,6 +183,9 @@ li img {
     color: #000000;
     font-family: 'dm-sans-bold'; }
 
+.information_section {
+  padding-block-end: 106px; }
+
 .carve-information {
   font-size: 18px;
   line-height: 32px;
@@ -195,3 +198,13 @@ li img {
   mix-blend-mode: normal;
   padding-block-start: 31px;
   padding-block-end: 31px; }
+
+.icon_list_container {
+  display: flex;
+  flex-direction: row; }
+  .icon_list_container span {
+    display: none; }
+  .icon_list_container li:not(:first-child) {
+    margin-inline-start: 18px; }
+  .icon_list_container li a svg:hover {
+    fill: #434CCC; }
