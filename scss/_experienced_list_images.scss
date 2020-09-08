@@ -1,1 +1,37 @@
-@import "./variable/variable";
+        @import "./variable/variable";
+        div.photograph_experience {
+            img {
+                width: 70px;
+                height: 48px;
+            }
+        }
+        
+        .list_primary {
+            display: flex;
+            flex-direction: column;
+            >li:nth-of-type(2) {
+                padding-block-start: 26px;
+            }
+        }
+        
+        ul.list_secondary {
+            display: flex;
+            flex-direction: row;
+            li:nth-of-type(2) p {
+                margin: 0;
+                padding-inline-start: 30px;
+            }
+        }
+        
+        .place {
+            font-size: $small-link-font;
+            line-height: $small-link-height;
+            color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .date {
+            font-family: 'dm-sans-bold';
+            font-size: $small-link-font;
+            line-height: $small-link-height;
+            color: $default-black-color;
+        }
