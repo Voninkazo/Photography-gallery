@@ -33,3 +33,9 @@
             line-height: $small-link-height;
             color: $default-black-color;
         }
+        
+        @media (min-width: 1114px) {
+            .place {
+                white-space: nowrap;
+            }
+        }

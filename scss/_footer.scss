@@ -1,8 +1,8 @@
 @import "./variable/variable";
-.section_photograph {
+body>footer {
     background-color: $default-white-color;
     border-bottom: 1px solid rgba(75, 70, 70, 0.1);
-    >div {
+    >div:nth-of-type(1) {
         padding-block-start: 75px;
         padding-block-end: 65px;
     }
@@ -21,8 +21,8 @@
 }
 
 @media (min-width:1114px) {
-    .section_photograph {
-        >div {
+    body>footer {
+        >div:nth-of-type(1) {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             column-gap: 130px;
