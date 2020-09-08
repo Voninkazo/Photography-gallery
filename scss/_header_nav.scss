@@ -20,7 +20,7 @@ body>header nav {
 
 header nav {
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $default-black-color;
     position: absolute;
     z-index: 3;
     border-radius: .5rem;
@@ -38,15 +38,13 @@ body>[type="checkbox"] {
 body>[type="checkbox"]:checked~header nav {
     display: block;
     content: '';
-    left: 10%;
-    top: 30%;
-    width: 250px;
-    padding: 20px;
-    z-index: 3;
+    left: 5%;
     top: 0;
+    width: 100px;
+    height: 500px;
+    padding: 20px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s;
-    transform: translateX(-20%) translateY(30%);
+    transform: translateX(-20%) translateY(10%);
 }
 
 @media (min-width: 1114px) {
