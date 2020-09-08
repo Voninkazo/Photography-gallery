@@ -347,7 +347,8 @@ ul.list_secondary {
   color: #000000; }
 
 .section_photograph {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(75, 70, 70, 0.1); }
   .section_photograph > div {
     padding-block-start: 75px;
     padding-block-end: 65px; }
@@ -367,6 +368,12 @@ ul.list_secondary {
   padding-block-start: 22px;
   padding-block-end: calc(78px / 2); }
 
+@media (min-width: 1114px) {
+  .section_photograph > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 130px; } }
+
 div.photograph_more_links {
   padding-block-start: 78px;
   padding-block-end: 78px; }
@@ -381,3 +388,7 @@ div.photograph_more_links {
     padding-block-end: calc(23px - 7px); }
     div.photograph_more_links ul li:nth-of-type(1) a {
       color: #000000; }
+
+@media (min-width: 1114px) {
+  div.photograph_more_links {
+    padding: 0; } }

@@ -16,3 +16,9 @@ div.photograph_more_links {
         }
     }
 }
+
+@media (min-width:1114px) {
+    div.photograph_more_links {
+        padding: 0;
+    }
+}
