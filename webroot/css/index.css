@@ -45,11 +45,12 @@ body > header {
   padding-block-start: var(--header-padd-vertical); }
 
 header h1 {
-  font-family: "dm-serif-display-400";
-  font-weight: normal;
-  margin: 0;
+  font-family: 'dm-serif-display-400';
   font-size: 24px;
-  line-height: 32px; }
+  line-height: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0; }
 
 header h1 a {
   color: #ffffff;
@@ -316,3 +317,10 @@ div.subscribe {
 @media (min-width: 1114px) {
   .email_input input {
     padding-inline-end: 172px; } }
+
+.photograph_introduction h2 {
+  font-family: 'dm-serif-display-400';
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: normal;
+  text-transform: uppercase; }

@@ -1,0 +1,10 @@
+@import "./variable/variable";
+.section_photograph {
+    >div {}
+}
+
+.photograph_introduction {
+    h2 {
+        @include main-heading;
+    }
+}

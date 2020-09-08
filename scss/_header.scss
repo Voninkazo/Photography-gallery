@@ -10,11 +10,8 @@ body>header {
 }
 
 header h1 {
-    font-family: $heading-font-family;
-    font-weight: normal;
+    @include main-heading;
     margin: 0;
-    font-size: 24px;
-    line-height: 32px;
 }
 
 header h1 a {

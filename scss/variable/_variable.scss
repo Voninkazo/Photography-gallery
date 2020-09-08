@@ -33,3 +33,11 @@ $default-black-color:#000000;
     font-size: 18px;
     line-height: 32px;
 }
+
+@mixin main-heading {
+    font-family: 'dm-serif-display-400';
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
