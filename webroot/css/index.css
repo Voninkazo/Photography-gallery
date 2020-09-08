@@ -374,7 +374,14 @@ body > footer {
   border-bottom: 1px solid rgba(75, 70, 70, 0.1); }
   body > footer > div:nth-of-type(1) {
     padding-block-start: 75px;
-    padding-block-end: 65px; }
+    padding-block-end: 65px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
+  body > footer > div:nth-of-type(2) {
+    padding-block-end: 28px; }
+    body > footer > div:nth-of-type(2) p {
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.5); }
 
 .photograph_introduction h2 {
   font-family: 'dm-serif-display-400';
@@ -395,4 +402,9 @@ body > footer {
   body > footer > div:nth-of-type(1) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 130px; } }
+    column-gap: 130px; }
+  body > footer > div:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block-end: 75px; } }
