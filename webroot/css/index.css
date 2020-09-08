@@ -219,7 +219,7 @@ li img {
     max-width: 585px;
     margin: 0;
     padding-block-start: 61px;
-    padding-block-end: 69px; } }
+    padding-block-end: 61px; } }
 
 .icon_list_container {
   display: flex;
@@ -318,9 +318,38 @@ div.subscribe {
   .email_input input {
     padding-inline-end: 172px; } }
 
+.section_photograph {
+  background-color: #ffffff; }
+  .section_photograph > div {
+    padding-block-start: 75px;
+    padding-block-end: 65px; }
+
 .photograph_introduction h2 {
   font-family: 'dm-serif-display-400';
   font-size: 24px;
   line-height: 32px;
   font-weight: normal;
   text-transform: uppercase; }
+
+.photograph_introduction p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding-block-start: 22px;
+  padding-block-end: calc(78px / 2); }
+
+div.photograph_more_links {
+  padding-block-start: 78px;
+  padding-block-end: 78px; }
+  div.photograph_more_links ul li {
+    padding-block-start: 7px; }
+    div.photograph_more_links ul li a {
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 16px;
+      line-height: 24px; }
+  div.photograph_more_links ul li:nth-of-type(1) {
+    font-family: 'dm-sans-bold';
+    padding-block-end: calc(23px - 7px); }
+    div.photograph_more_links ul li:nth-of-type(1) a {
+      color: #000000; }

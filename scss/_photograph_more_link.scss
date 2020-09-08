@@ -1,1 +1,20 @@
 @import "./variable/variable";
+div.photograph_more_links {
+    padding-block-start: 78px;
+    padding-block-end: 78px;
+    ul li {
+        padding-block-start: 7px;
+        a {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: $small-link-font;
+            line-height: $small-link-height;
+        }
+    }
+    ul li:nth-of-type(1) {
+        font-family: 'dm-sans-bold';
+        padding-block-end: calc(23px - 7px);
+        a {
+            color: $default-black-color;
+        }
+    }
+}
