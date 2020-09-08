@@ -30,3 +30,9 @@
         color: rgba(0, 0, 0, 0.5);
     }
 }
+
+@media (min-width:1114px) {
+    .email_input input {
+        padding-inline-end: 172px;
+    }
+}

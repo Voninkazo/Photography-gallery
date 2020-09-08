@@ -23,3 +23,24 @@
 div.subscribe {
     padding-block-start: 44px;
 }
+
+@media (min-width: 114px) {
+    .section_subscribe {
+        >div {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: calc(218px - 16px);
+        }
+    }
+    div.subscribe {
+        padding-block-start: 132px;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            li:nth-of-type(2) {
+                padding-block-start: 8px;
+            }
+        }
+    }
+}

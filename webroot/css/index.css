@@ -243,6 +243,20 @@ li img {
 div.subscribe {
   padding-block-start: 44px; }
 
+@media (min-width: 114px) {
+  .section_subscribe > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: calc(218px - 16px); }
+  div.subscribe {
+    padding-block-start: 132px; }
+    div.subscribe ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      div.subscribe ul li:nth-of-type(2) {
+        padding-block-start: 8px; } }
+
 :root {
   --btn-padding-vertical-start: 13px;
   --btn-padding-vertical-end: 11px; }
@@ -251,13 +265,19 @@ div.subscribe {
   background-color: #434CCC;
   text-align: center;
   border-radius: 5px;
-  padding-block-start: var(--btn-padding-vertical-start);
-  padding-block-end: var(--btn-padding-vertical-end);
   width: 170px; }
   .subscribe_button a {
     font-size: 16px;
     line-height: 24px;
-    color: #ffffff; }
+    color: #ffffff;
+    padding-block-start: var(--btn-padding-vertical-start);
+    padding-block-end: var(--btn-padding-vertical-end);
+    display: block; }
+
+@media (min-width: 1114px) {
+  .subscribe_button {
+    margin-inline-start: 54px;
+    margin-block-end: 0; } }
 
 :root {
   --btn-padding-vertical-start: 13px;
@@ -285,3 +305,7 @@ div.subscribe {
     font-size: 16px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.5); }
+
+@media (min-width: 1114px) {
+  .email_input input {
+    padding-inline-end: 172px; } }
