@@ -23,5 +23,8 @@ div.photograph_more_links {
 @media (min-width:1114px) {
     div.photograph_more_links {
         padding: 0;
+        li:nth-of-type(1) {
+            padding-block-start: 0;
+        }
     }
 }

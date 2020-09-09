@@ -85,7 +85,7 @@ body > header nav {
 
 header nav {
   padding: 1rem;
-  background-color: #000000;
+  background-color: gray;
   position: absolute;
   z-index: 3;
   border-radius: .5rem;
@@ -175,13 +175,25 @@ li img {
   border-radius: .5rem; }
 
 .image_container {
+  position: relative;
   display: flex;
   flex-direction: row;
   overflow: hidden; }
-  .image_container li:not(:first-child) {
+  .image_container li:not(:nth-of-type(2)) {
     margin-inline-start: 9px; }
   .image_container li img {
     width: 137px; }
+
+.arrow-next {
+  position: absolute;
+  top: 30%;
+  right: 0; }
+  .arrow-next svg {
+    height: 20px;
+    width: 20px;
+    opacity: 0.9;
+    fill: white;
+    cursor: pointer; }
 
 .photo_details {
   padding-block-start: 92px;
@@ -258,7 +270,7 @@ li img {
   .icon_list_container li:not(:first-child) {
     margin-inline-start: 18px; }
   .icon_list_container li a svg:hover {
-    fill: #434CCC; }
+    fill: #0000CD; }
 
 :root {
   --btn-padding-vertical-start: 13px;
@@ -405,7 +417,9 @@ div.photograph_more_links {
 
 @media (min-width: 1114px) {
   div.photograph_more_links {
-    padding: 0; } }
+    padding: 0; }
+    div.photograph_more_links li:nth-of-type(1) {
+      padding-block-start: 0; } }
 
 body > footer {
   background-color: #ffffff;
