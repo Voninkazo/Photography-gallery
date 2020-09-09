@@ -57,8 +57,8 @@ body>[type="checkbox"]:checked~header nav {
         position: relative;
     }
     header nav {
-        width: fit-content;
-        height: fit-content;
+        width: auto;
+        height: auto;
     }
     header label {
         visibility: hidden;

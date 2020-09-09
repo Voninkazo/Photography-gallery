@@ -115,8 +115,8 @@ body > [type="checkbox"]:checked ~ header nav {
     display: block;
     position: relative; }
   header nav {
-    width: fit-content;
-    height: fit-content; }
+    width: auto;
+    height: auto; }
   header label {
     visibility: hidden; }
   .header_links {
@@ -124,10 +124,10 @@ body > [type="checkbox"]:checked ~ header nav {
     .header_links li {
       margin-inline-start: 26px; } }
 
-.masthead_wrapper {
+.button_container {
   padding-block-start: 31px;
   padding-block-end: 61px; }
-  .masthead_wrapper a {
+  .button_container a {
     font-size: 16px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.5); }
