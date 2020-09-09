@@ -16,6 +16,9 @@ body>header nav {
         font-size: $small-link-font;
         line-height: $small-link-height;
     }
+    a:hover {
+        @include hover-link-style;
+    }
 }
 
 header nav {

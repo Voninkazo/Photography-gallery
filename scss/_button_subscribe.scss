@@ -20,7 +20,8 @@
 }
 
 .subscribe_button:hover {
-    background-color: #2362D4; // personal value
+    background-color: #0000CD; // personal value
+    transition: background-color 0.5s;
 }
 
 @media (min-width: 1114px) {

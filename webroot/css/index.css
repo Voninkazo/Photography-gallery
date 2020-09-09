@@ -79,6 +79,9 @@ body > header nav {
     color: #ffffff;
     font-size: 16px;
     line-height: 24px; }
+  .header_links a:hover {
+    color: #000000;
+    font-family: 'dm-sans-bold'; }
 
 header nav {
   padding: 1rem;
@@ -134,6 +137,9 @@ body > [type="checkbox"]:checked ~ header nav {
     font-size: 16px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.5); }
+  .button_container p a:hover {
+    color: #000000;
+    font-family: 'dm-sans-bold'; }
 
 ul {
   list-style: none;
@@ -308,7 +314,8 @@ div.subscribe {
     display: block; }
 
 .subscribe_button:hover {
-  background-color: #2362D4; }
+  background-color: #0000CD;
+  transition: background-color 0.5s; }
 
 @media (min-width: 1114px) {
   .subscribe_button {
@@ -387,6 +394,9 @@ div.photograph_more_links {
       font-size: 16px;
       line-height: 24px;
       color: rgba(0, 0, 0, 0.5); }
+    div.photograph_more_links ul li a:hover {
+      color: #000000;
+      font-family: 'dm-sans-bold'; }
   div.photograph_more_links ul li:nth-of-type(1) {
     font-family: 'dm-sans-bold';
     padding-block-end: calc(23px - 7px); }

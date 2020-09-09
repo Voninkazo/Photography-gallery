@@ -5,4 +5,7 @@
     a {
         @include gray-paragraph;
     }
+    a:hover {
+        @include hover-link-style;
+    }
 }

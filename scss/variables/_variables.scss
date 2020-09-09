@@ -48,3 +48,8 @@ $default-black-color:#000000;
     line-height: 32px;
     color: $default-black-color;
 }
+
+@mixin hover-link-style {
+    color: $default-black-color;
+    font-family: 'dm-sans-bold';
+}
