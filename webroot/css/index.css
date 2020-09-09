@@ -299,6 +299,9 @@ div.subscribe {
     padding-block-end: var(--btn-padding-vertical-end);
     display: block; }
 
+.subscribe_button:hover {
+  background-color: #2362D4; }
+
 @media (min-width: 1114px) {
   .subscribe_button {
     margin-inline-start: 54px;
