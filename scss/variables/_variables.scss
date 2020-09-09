@@ -29,11 +29,6 @@ $default-black-color:#000000;
     margin: 0;
 }
 
-@mixin style-paragraph {
-    font-size: 18px;
-    line-height: 32px;
-}
-
 @mixin main-heading {
     font-family: 'dm-serif-display-400';
     font-size: 24px;
@@ -46,4 +41,10 @@ $default-black-color:#000000;
     font-size: $small-link-font;
     line-height: $small-link-height;
     color: rgba(0, 0, 0, 0.5);
+}
+
+@mixin black-article-paragraph {
+    font-size: 18px;
+    line-height: 32px;
+    color: $default-black-color;
 }

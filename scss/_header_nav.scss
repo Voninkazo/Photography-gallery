@@ -29,6 +29,8 @@ header nav {
     bottom: 0;
     width: 250px;
     height: 200px;
+    transform: translateX(-110%);
+    transition: transform 0.3s;
 }
 
 body>[type="checkbox"] {
@@ -45,6 +47,7 @@ body>[type="checkbox"]:checked~header nav {
     padding: 20px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     transform: translateX(-20%) translateY(10%);
+    transition: transform 0.3s;
 }
 
 @media (min-width: 1114px) {
@@ -58,7 +61,7 @@ body>[type="checkbox"]:checked~header nav {
     }
     header nav {
         width: auto;
-        height: auto;
+        height: auto; // override the width and height values whic were set on the mobile 
     }
     header label {
         visibility: hidden;

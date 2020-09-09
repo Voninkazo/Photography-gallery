@@ -12,7 +12,7 @@ h2 {
 }
 
 .article_text {
-    @include style-paragraph;
+    @include black-article-paragraph;
 }
 
 @media (min-width: 1114px) {

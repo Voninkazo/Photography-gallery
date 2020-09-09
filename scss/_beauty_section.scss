@@ -1,12 +1,15 @@
 @import "./variables/variables";
+:root {
+    --article-text-verticle-padd: 31px;
+    --beauty-text-vertile-padd: 61px;
+}
+
 .information_section {
     padding-block-end: 106px;
 }
 
 .carve-information {
-    font-size: 18px;
-    line-height: 32px;
-    color: $default-black-color;
+    @include black-article-paragraph;
 }
 
 .beauty_section_text p {
@@ -18,8 +21,8 @@
 .experience_information {
     @include gray-paragraph;
     mix-blend-mode: normal;
-    padding-block-start: 31px;
-    padding-block-end: 31px;
+    padding-block-start: var(--article-text-verticle-padd);
+    padding-block-end: var(--article-text-verticle-padd);
 }
 
 @media (min-width: 1114px) {
@@ -38,8 +41,8 @@
         p {
             max-width: 585px;
             margin: 0;
-            padding-block-start: 61px;
-            padding-block-end: 61px;
+            padding-block-start: var(--beauty-text-vertile-padd);
+            padding-block-end: var(--beauty-text-vertile-padd);
         }
     }
 }
