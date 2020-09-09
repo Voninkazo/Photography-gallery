@@ -143,14 +143,19 @@ a {
 h2 {
   font-family: 'dm-serif-display-400';
   color: #000000;
-  font-size: 52px;
-  line-height: 64px;
+  font-size: 40px;
+  line-height: 48px;
   font-weight: normal;
   margin: 0; }
 
 .article_text {
   font-size: 18px;
   line-height: 32px; }
+
+@media (min-width: 1114px) {
+  h2 {
+    font-size: 52px;
+    line-height: 64px; } }
 
 .big_carve {
   width: 100%;
@@ -161,7 +166,12 @@ li img {
 
 .image_container {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  overflow: hidden; }
+  .image_container li:not(:first-child) {
+    margin-inline-start: 9px; }
+  .image_container li img {
+    width: 137px; }
 
 .photo_details {
   padding-block-start: 92px;
@@ -197,6 +207,11 @@ li img {
   font-size: 18px;
   line-height: 32px;
   color: #000000; }
+
+.beauty_section_text p {
+  margin: 0;
+  padding-block-start: 65px;
+  padding-block-end: 82px; }
 
 .experience_information {
   font-size: 16px;

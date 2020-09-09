@@ -9,6 +9,12 @@
     color: $default-black-color;
 }
 
+.beauty_section_text p {
+    margin: 0;
+    padding-block-start: 65px;
+    padding-block-end: 82px;
+}
+
 .experience_information {
     @include gray-paragraph;
     mix-blend-mode: normal;

@@ -11,5 +11,11 @@ li img {
 .image_container {
     display: flex;
     flex-direction: row;
-    li {}
+    overflow: hidden;
+    li:not(:first-child) {
+        margin-inline-start: 9px;
+    }
+    li img {
+        width: 137px;
+    }
 }

@@ -14,3 +14,10 @@ h2 {
 .article_text {
     @include style-paragraph;
 }
+
+@media (min-width: 1114px) {
+    h2 {
+        font-size: 52px;
+        line-height: 64px;
+    }
+}
