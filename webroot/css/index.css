@@ -270,15 +270,17 @@ div.subscribe {
   .section_subscribe > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: calc(218px - 16px); }
-  div.subscribe {
-    padding-block-start: 132px; }
-    div.subscribe ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly; }
-      div.subscribe ul li:nth-of-type(2) {
-        padding-block-start: 8px; } }
+    column-gap: calc(218px - 16px);
+    padding-block-start: calc(120px - 44px);
+    padding-block-end: 104px; }
+    .section_subscribe > div h2 {
+      width: 382px; }
+  div.subscribe ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    div.subscribe ul li:nth-of-type(2) {
+      padding-block-start: 8px; } }
 
 :root {
   --btn-padding-vertical-start: 13px;

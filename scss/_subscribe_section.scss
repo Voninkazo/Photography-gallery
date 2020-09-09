@@ -30,10 +30,15 @@ div.subscribe {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             column-gap: calc(218px - 16px);
+            padding-block-start: calc(120px - 44px);
+            padding-block-end: 104px;
+            h2 {
+                width: 382px;
+            }
         }
     }
     div.subscribe {
-        padding-block-start: 132px;
+        // padding-block-start: 132px;
         ul {
             display: flex;
             flex-direction: row;

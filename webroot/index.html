@@ -43,7 +43,11 @@
                 </div>
                 <div class="beauty_section_pictures">
                     <div>
-                        <img class="big_carve" src="../webroot/images/rock_carvings_md.jpg" alt="this is the rock">
+                        <picture>
+                            <source media="(min-width: 1114px)" srcset="../webroot/images/rock_carvings_lg.jpg">
+                            <source media="(min-width:768px)" srcset="../webroot/images/rock_carvings_md.jpg">
+                            <img class="big_carve" src="../webroot/images/rock_carvings_sm.jpg" alt="this is the rock">
+                        </picture>
                     </div>
                     <ul class="image_container">
                         <li><img src="../webroot/images/rock_carvings_sm.jpg" alt="small carve"></li>
