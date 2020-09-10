@@ -16,14 +16,14 @@
     }
     small,
     p {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: $small-link-font;
+        line-height: $small-link-height;
     }
     small {
-        color: rgba(0, 0, 0, 0.5);
+        color: $default-gray-color;
     }
     p {
-        color: #000000;
+        color: $default-black-color;
         font-family: 'dm-sans-bold';
     }
 }

@@ -1,7 +1,7 @@
 @import "./variables/variables";
 :root {
     --article-text-verticle-padd: 31px;
-    --beauty-text-vertile-padd: 61px;
+    --beauty-text-verticle-padd: 61px;
 }
 
 .information_section {
@@ -41,8 +41,8 @@
         p {
             max-width: 585px;
             margin: 0;
-            padding-block-start: var(--beauty-text-vertile-padd);
-            padding-block-end: var(--beauty-text-vertile-padd);
+            padding-block-start: var(--beauty-text-verticle-padd);
+            padding-block-end: var(--beauty-text-verticle-padd);
         }
     }
 }

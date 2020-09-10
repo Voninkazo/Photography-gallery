@@ -5,6 +5,7 @@ $default-white-color: #ffffff;
 $small-link-font: 16px;
 $small-link-height:24px;
 $default-black-color:#000000;
+$default-gray-color:rgba(0, 0, 0, 0.5);
 @mixin style-container {
     max-width: 1114px;
     margin: auto;
@@ -52,4 +53,5 @@ $default-black-color:#000000;
 @mixin hover-link-style {
     color: $default-black-color;
     font-family: 'dm-sans-bold';
+    transition: color 1s;
 }

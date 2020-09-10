@@ -15,7 +15,7 @@ header h1 {
 }
 
 header h1 a {
-    color: #ffffff;
+    color: $default-white-color;
     @include style-anchor;
 }
 
