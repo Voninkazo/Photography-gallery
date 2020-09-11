@@ -89,7 +89,6 @@ body > [type="checkbox"]:checked ~ header nav {
   content: '';
   left: 0;
   top: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   transform: translateX(-10%);
   transition: transform 0.3s; }
 
@@ -122,7 +121,7 @@ body > [type="checkbox"]:checked ~ header nav {
     width: auto;
     height: auto; }
   header label {
-    visibility: hidden; }
+    display: none; }
   .navigation_container {
     flex-direction: row; }
     .navigation_container li {
