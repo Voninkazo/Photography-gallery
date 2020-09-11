@@ -29,3 +29,9 @@ body>header>div {
     width: 20px;
     height: 16px;
 }
+
+@media(min-width:1114px) {
+    header h1 {
+        @include bigger-h1;
+    }
+}

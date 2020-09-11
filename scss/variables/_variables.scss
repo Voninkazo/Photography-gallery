@@ -38,6 +38,11 @@ $default-gray-color:rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
 }
 
+@mixin bigger-h1 {
+    font-size: 40px;
+    line-height: 48px;
+}
+
 @mixin gray-paragraph {
     font-size: $small-link-font;
     line-height: $small-link-height;
