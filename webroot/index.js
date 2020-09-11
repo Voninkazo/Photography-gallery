@@ -6,7 +6,7 @@ const largeImgSrc = document.querySelector('.big_src');
 const mdImgSrc = document.querySelector('.md_src');
 const smImgSrc = document.querySelector('.sm_src');
 console.log(bigImageContainer);
-let currentImg;
+let currentImg; // the big image
 
 // show image
 function showImage(element) {
