@@ -255,8 +255,12 @@ h2 {
     display: none; }
   .icon_list_container li:not(:first-child) {
     margin-left: 18px; }
+  .icon_list_container li a svg {
+    fill: rgba(0, 0, 0, 0.5);
+    opacity: 0.3; }
   .icon_list_container li a svg:hover {
-    fill: #0000CD; }
+    fill: #000000;
+    opacity: 1; }
 
 :root {
   --btn-padding-vertical-start: 13px;
