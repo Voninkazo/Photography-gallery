@@ -7,11 +7,11 @@ header nav {
     padding: 1rem;
     background-color: gray;
     position: absolute;
-    z-index: 3;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 250px;
+    width: 150px;
+    height: 500px;
     box-shadow: 0 0 50px rgba(0, 0, 0, .5);
     transform: translateX(-110%);
     transition: transform 0.3s;
@@ -24,19 +24,20 @@ body>[type="checkbox"] {
 body>[type="checkbox"]:checked~header nav {
     display: block;
     content: '';
-    left: 5%;
-    top: 5%;
-    width: 100px;
-    height: 500px;
-    padding: 20px;
+    left: 0;
+    top: 0;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    transform: translateX(-20%) translateY(10%);
+    transform: translateX(-10%);
     transition: transform 0.3s;
 }
 
-.header_links {
+.navigation_container {
     display: flex;
     flex-direction: column;
+    li {
+        padding-block-start: 20px;
+        padding-inline-start: 20px; //imagined values
+    }
     margin: 0;
     a {
         color: $default-white-color;
@@ -49,13 +50,14 @@ body>[type="checkbox"]:checked~header nav {
 }
 
 @media (min-width: 1114px) {
-    body>header nav {
+    header nav {
         padding: 0;
         background: none;
         box-shadow: none;
         transform: none;
         display: block;
         position: relative;
+        box-shadow: none;
     }
     header nav {
         width: auto;
@@ -64,10 +66,11 @@ body>[type="checkbox"]:checked~header nav {
     header label {
         visibility: hidden;
     }
-    .header_links {
+    .navigation_container {
         flex-direction: row;
         li {
             margin-inline-start: 26px;
+            padding: 0;
         }
     }
 }
