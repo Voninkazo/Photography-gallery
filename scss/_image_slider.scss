@@ -1,35 +1,41 @@
-    @import "./variables/variables";
-    .big_carve {
-        width: 100%;
-        border-radius: .5rem;
+@import "./variables/variables";
+.big_image_container {
+    position: relative;
+}
+
+.big_carve {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+li img {
+    border-radius: .5rem;
+}
+
+.image_container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    li:not(:nth-of-type(2)) {
+        margin-inline-start: 9px;
     }
-    
     li img {
-        border-radius: .5rem;
+        width: 137px;
     }
-    
-    .image_container {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        overflow: hidden;
-        li:not(:nth-of-type(2)) {
-            margin-inline-start: 9px;
-        }
-        li img {
-            width: 137px;
-        }
-    }
-    
-    .arrow-next {
-        position: absolute;
-        top: 30%;
-        right: 0;
-        svg {
-            height: 20px;
-            width: 20px;
-            opacity: 0.9;
-            fill: white;
-            cursor: pointer;
-        }
-    }
+}
+
+.arrow-next {
+    position: absolute;
+    right: 3%;
+    top: 110%;
+    color: white;
+    cursor: pointer;
+}
+
+.arrow-prev {
+    position: absolute;
+    left: 3%;
+    top: 110%;
+    color: white;
+    cursor: pointer;
+}

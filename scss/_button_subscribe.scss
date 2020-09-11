@@ -13,8 +13,8 @@
         font-size: $small-link-font;
         line-height: $small-link-height;
         color: $default-white-color;
-        padding-block-start: var(--btn-padding-vertical-start);
-        padding-block-end: var(--btn-padding-vertical-end);
+        padding-top: var(--btn-padding-vertical-start);
+        padding-bottom: var(--btn-padding-vertical-end);
         display: block;
     }
 }
@@ -26,7 +26,7 @@
 
 @media (min-width: 1114px) {
     .subscribe_button {
-        margin-inline-start: 54px;
-        margin-block-end: 0;
+        margin-left: 54px;
+        margin-bottom: 0;
     }
 }

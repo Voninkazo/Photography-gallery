@@ -5,7 +5,7 @@
 }
 
 .information_section {
-    padding-block-end: 106px;
+    padding-bottom: 106px;
 }
 
 .carve-information {
@@ -14,15 +14,15 @@
 
 .beauty_section_text p {
     margin: 0;
-    padding-block-start: 65px;
-    padding-block-end: 82px;
+    padding-top: 65px;
+    padding-bottom: 82px;
 }
 
 .experience_information {
     @include gray-paragraph;
     mix-blend-mode: normal;
-    padding-block-start: var(--article-text-verticle-padd);
-    padding-block-end: var(--article-text-verticle-padd);
+    padding-top: var(--article-text-verticle-padd);
+    padding-bottom: var(--article-text-verticle-padd);
 }
 
 @media (min-width: 1114px) {
@@ -31,8 +31,8 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .carve_details {
-        padding-block-start: 87px;
-        padding-block-end: 76px;
+        padding-top: 87px;
+        padding-bottom: 76px;
     }
     .beauty_section_text {
         h2 {
@@ -41,8 +41,8 @@
         p {
             max-width: 585px;
             margin: 0;
-            padding-block-start: var(--beauty-text-verticle-padd);
-            padding-block-end: var(--beauty-text-verticle-padd);
+            padding-top: var(--beauty-text-verticle-padd);
+            padding-bottom: var(--beauty-text-verticle-padd);
         }
     }
 }

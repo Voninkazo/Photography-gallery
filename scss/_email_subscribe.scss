@@ -13,16 +13,16 @@
         line-height: 16px;
         color: $default-black-color;
         text-transform: uppercase;
-        padding-block-end: 12px;
+        padding-bottom: 12px;
     }
     input {
         background: $default-white-color;
         border: 1px solid #DADADA;
         box-sizing: border-box;
         border-radius: 5px;
-        padding-inline-start: 16px;
-        padding-block-start: var(--btn-padding-vertical-start);
-        padding-block-end: var(--btn-padding-vertical-end);
+        padding-left: 16px;
+        padding-top: var(--btn-padding-vertical-start);
+        padding-bottom: var(--btn-padding-vertical-end);
     }
      ::placeholder {
         @include gray-paragraph;
@@ -31,6 +31,6 @@
 
 @media (min-width:1114px) {
     .email_input input {
-        padding-inline-end: 172px;
+        padding-right: 172px;
     }
 }

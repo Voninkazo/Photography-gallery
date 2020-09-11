@@ -5,8 +5,8 @@ body {
 }
 
 div.container {
-    padding-inline-end: $section-padding-horizontal;
-    padding-inline-start: $section-padding-horizontal;
+    padding-right: $section-padding-horizontal;
+    padding-left: $section-padding-horizontal;
 }
 
 @media (min-width: 1114px) {

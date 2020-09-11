@@ -1,7 +1,7 @@
 @import "./variables/variables";
 .photo_details {
-    padding-block-start: 92px;
-    padding-block-end: 75px;
+    padding-top: 92px;
+    padding-bottom: 75px;
 }
 
 .detail_list_container {
@@ -30,7 +30,7 @@
 
 @media (min-width: 1114px) {
     .photo_details {
-        padding-block-start: 89px;
-        padding-block-end: 206;
+        padding-top: 89px;
+        padding-bottom: 206;
     }
 }

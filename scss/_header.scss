@@ -5,8 +5,8 @@
 
 body>header {
     background-color: $bg-color-blue;
-    padding-block-end: var(--header-padd-vertical);
-    padding-block-start: var(--header-padd-vertical);
+    padding-bottom: var(--header-padd-vertical);
+    padding-top: var(--header-padd-vertical);
 }
 
 header h1 {

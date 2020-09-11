@@ -3,12 +3,12 @@ body>footer {
     background-color: $default-white-color;
     border-bottom: 1px solid rgba(75, 70, 70, 0.1);
     >div:nth-of-type(1) {
-        padding-block-start: 75px;
-        padding-block-end: 65px;
+        padding-top: 75px;
+        padding-bottom: 65px;
         border-bottom: 1px solid $default-gray-color;
     }
     >div:nth-of-type(2) {
-        padding-block-end: 28px;
+        padding-bottom: 28px;
         p {
             @include gray-paragraph;
         }
@@ -21,8 +21,8 @@ body>footer {
     }
     @include gray-paragraph;
     margin: 0;
-    padding-block-start: 22px;
-    padding-block-end: calc(78px / 2);
+    padding-top: 22px;
+    padding-bottom: calc(78px / 2);
 }
 
 @media (min-width:1114px) {
@@ -36,7 +36,7 @@ body>footer {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            padding-block-end: 75px;
+            padding-bottom: 75px;
         }
     }
 }

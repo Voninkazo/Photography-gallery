@@ -7,8 +7,8 @@
 .section_subscribe {
     background-color: #FFDD78;
     >div {
-        padding-block-start: 63px;
-        padding-block-end: 54px;
+        padding-top: 63px;
+        padding-bottom: 54px;
     }
 }
 
@@ -21,7 +21,7 @@
 }
 
 div.subscribe {
-    padding-block-start: 44px;
+    padding-top: 44px;
 }
 
 @media (min-width: 1114px) {
@@ -30,21 +30,21 @@ div.subscribe {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             column-gap: calc(218px - 16px);
-            padding-block-start: calc(120px - 44px);
-            padding-block-end: 104px;
+            padding-top: calc(120px - 44px);
+            padding-bottom: 104px;
             h2 {
                 width: 382px;
             }
         }
     }
     div.subscribe {
-        // padding-block-start: 132px;
+        // padding-top: 132px;
         ul {
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
             li:nth-of-type(2) {
-                padding-block-start: 8px;
+                padding-top: 8px;
             }
         }
     }

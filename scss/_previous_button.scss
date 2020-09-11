@@ -1,7 +1,7 @@
 @import "./variables/variables";
 .button_container p {
-    padding-block-start: 31px;
-    padding-block-end: 61px;
+    padding-top: 31px;
+    padding-bottom: 61px;
     a {
         @include gray-paragraph;
     }
