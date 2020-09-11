@@ -175,7 +175,7 @@ h2 {
 .image_container {
   display: flex;
   flex-direction: row;
-  overflow: scroll; }
+  overflow: auto; }
   .image_container li:not(:nth-of-type(1)) {
     margin-inline-start: 9px; }
   .image_container li img {
@@ -261,10 +261,6 @@ h2 {
   .icon_list_container li a svg:hover {
     fill: #000000;
     opacity: 1; }
-
-:root {
-  --btn-padding-vertical-start: 13px;
-  --btn-padding-vertical-end: 11px; }
 
 .section_subscribe {
   background-color: #FFDD78; }
