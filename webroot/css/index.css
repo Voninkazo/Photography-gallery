@@ -181,6 +181,10 @@ h2 {
   .image_container li img {
     width: 137px; }
 
+@media (min-width: 1114px) {
+  .image_container li img {
+    opacity: 0.5; } }
+
 .photo_details {
   padding-top: 92px;
   padding-bottom: 75px; }
