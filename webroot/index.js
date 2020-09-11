@@ -2,9 +2,9 @@ console.log('it works');
 // grab all necessary elements
 const bigImageContainer = document.querySelector('.big_image');
 const images = document.querySelectorAll('.image_container');
-const largeImgSrc = bigImageContainer.querySelector('.big_src');
-const mdImgSrc = bigImageContainer.querySelector('.md_src');
-const smImgSrc = bigImageContainer.querySelector('.sm_src');
+const largeImgSrc = document.querySelector('.big_src');
+const mdImgSrc = document.querySelector('.md_src');
+const smImgSrc = document.querySelector('.sm_src');
 console.log(bigImageContainer);
 let currentImg;
 

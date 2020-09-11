@@ -1,10 +1,37 @@
 @import "./variables/variables";
-body header>div {
+body>header {
     position: relative;
 }
 
-body>header nav {
+header nav {
+    padding: 1rem;
+    background-color: gray;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .5);
+    transform: translateX(-110%);
+    transition: transform 0.3s;
+}
+
+body>[type="checkbox"] {
     display: none;
+}
+
+body>[type="checkbox"]:checked~header nav {
+    display: block;
+    content: '';
+    left: 5%;
+    top: 5%;
+    width: 100px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    transform: translateX(-20%) translateY(10%);
+    transition: transform 0.3s;
 }
 
 .header_links {
@@ -19,38 +46,6 @@ body>header nav {
     a:hover {
         @include hover-link-style;
     }
-}
-
-header nav {
-    padding: 1rem;
-    background-color: gray;
-    position: absolute;
-    z-index: 3;
-    border-radius: .5rem;
-    top: 2%;
-    left: 0;
-    bottom: 0;
-    width: 250px;
-    height: 200px;
-    transform: translateX(-110%);
-    transition: transform 0.3s;
-}
-
-body>[type="checkbox"] {
-    display: none;
-}
-
-body>[type="checkbox"]:checked~header nav {
-    display: block;
-    content: '';
-    left: 5%;
-    top: 0;
-    width: 100px;
-    height: 500px;
-    padding: 20px;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    transform: translateX(-20%) translateY(10%);
-    transition: transform 0.3s;
 }
 
 @media (min-width: 1114px) {
@@ -72,7 +67,7 @@ body>[type="checkbox"]:checked~header nav {
     .header_links {
         flex-direction: row;
         li {
-            margin-left: 26px;
+            margin-inline-start: 26px;
         }
     }
 }
