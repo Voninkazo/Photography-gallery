@@ -32,6 +32,6 @@ body>header>div {
 
 @media(min-width:1114px) {
     header h1 {
-        @include bigger-h1;
+        @include bigger-main-heading;
     }
 }

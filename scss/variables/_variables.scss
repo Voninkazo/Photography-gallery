@@ -6,6 +6,7 @@ $small-link-font: 16px;
 $small-link-height:24px;
 $default-black-color:#000000;
 $default-gray-color:rgba(0, 0, 0, 0.5);
+$img-border-radious:0.5rem;
 @mixin style-container {
     max-width: 1114px;
     margin: auto;
@@ -22,7 +23,7 @@ $default-gray-color:rgba(0, 0, 0, 0.5);
 }
 
 @mixin style-h2 {
-    font-family: 'dm-serif-display-400';
+    font-family: $heading-font-family;
     color: #000000;
     font-size: 40px;
     line-height: 48px;
@@ -31,14 +32,14 @@ $default-gray-color:rgba(0, 0, 0, 0.5);
 }
 
 @mixin main-heading {
-    font-family: 'dm-serif-display-400';
+    font-family: $heading-font-family;
     font-size: 24px;
     line-height: 32px;
     font-weight: normal;
     text-transform: uppercase;
 }
 
-@mixin bigger-h1 {
+@mixin bigger-main-heading {
     font-size: 40px;
     line-height: 48px;
 }
@@ -59,4 +60,11 @@ $default-gray-color:rgba(0, 0, 0, 0.5);
     color: $default-black-color;
     font-family: 'dm-sans-bold';
     transition: color 1s;
+}
+
+@mixin small-black-text {
+    font-family: 'dm-sans-bold';
+    font-size: 12px;
+    line-height: 24px;
+    color: $default-black-color;
 }

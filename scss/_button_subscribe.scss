@@ -7,7 +7,7 @@
 .subscribe_button {
     background-color: $bg-color-blue;
     text-align: center;
-    border-radius: 5px;
+    border-radius: $img-border-radious;
     width: 170px;
     a {
         font-size: $small-link-font;

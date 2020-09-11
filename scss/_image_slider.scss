@@ -1,11 +1,11 @@
 @import "./variables/variables";
-.big_carve {
-    width: 100%;
-    border-radius: .5rem;
-}
-
-li img {
-    border-radius: .5rem;
+.beauty_section_pictures {
+    .big_carve {
+        width: 100%;
+    }
+    img {
+        border-radius: $img-border-radious;
+    }
 }
 
 .image_container {

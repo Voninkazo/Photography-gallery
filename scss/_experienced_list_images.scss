@@ -3,6 +3,8 @@
             img {
                 width: 70px;
                 height: 48px;
+                border-radius: $img-border-radious;
+                ;
             }
         }
         
@@ -28,10 +30,7 @@
         }
         
         .date {
-            font-family: 'dm-sans-bold';
-            font-size: $small-link-font;
-            line-height: $small-link-height;
-            color: $default-black-color;
+            @include small-black-text;
         }
         
         @media (min-width: 1114px) {

@@ -45,7 +45,7 @@ body > header {
   padding-top: var(--header-padd-vertical); }
 
 header h1 {
-  font-family: 'dm-serif-display-400';
+  font-family: "dm-serif-display-400";
   font-size: 24px;
   line-height: 32px;
   font-weight: normal;
@@ -77,6 +77,7 @@ header nav {
   padding: 1rem;
   background-color: gray;
   position: absolute;
+  border-radius: .5rem;
   top: 0;
   left: 0;
   bottom: 0;
@@ -154,7 +155,7 @@ a {
   text-decoration: none; }
 
 h2 {
-  font-family: 'dm-serif-display-400';
+  font-family: "dm-serif-display-400";
   color: #000000;
   font-size: 40px;
   line-height: 48px;
@@ -171,12 +172,11 @@ h2 {
     font-size: 52px;
     line-height: 64px; } }
 
-.big_carve {
-  width: 100%;
-  border-radius: .5rem; }
+.beauty_section_pictures .big_carve {
+  width: 100%; }
 
-li img {
-  border-radius: .5rem; }
+.beauty_section_pictures img {
+  border-radius: 0.5rem; }
 
 .image_container {
   display: flex;
@@ -307,7 +307,7 @@ div.subscribe {
 .subscribe_button {
   background-color: #434CCC;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   width: 170px; }
   .subscribe_button a {
     font-size: 16px;
@@ -336,7 +336,7 @@ div.subscribe {
   .email_input label {
     font-family: 'dm-sans-bold';
     font-size: 12px;
-    line-height: 16px;
+    line-height: 24px;
     color: #000000;
     text-transform: uppercase;
     padding-bottom: 12px; }
@@ -359,7 +359,8 @@ div.subscribe {
 
 div.photograph_experience img {
   width: 70px;
-  height: 48px; }
+  height: 48px;
+  border-radius: 0.5rem; }
 
 .list_primary {
   display: flex;
@@ -381,7 +382,7 @@ ul.list_secondary {
 
 .date {
   font-family: 'dm-sans-bold';
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   color: #000000; }
 
@@ -438,7 +439,7 @@ body > footer {
   margin: 0;
   padding-bottom: calc(78px / 2); }
   .photograph_introduction h2 {
-    font-family: 'dm-serif-display-400';
+    font-family: "dm-serif-display-400";
     font-size: 24px;
     line-height: 32px;
     font-weight: normal;
