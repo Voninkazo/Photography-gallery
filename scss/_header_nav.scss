@@ -58,11 +58,10 @@ body>[type="checkbox"]:checked~header nav {
         display: block;
         position: relative;
         box-shadow: none;
-    }
-    header nav {
         width: auto;
-        height: auto; // override the width and height values whic were set on the mobile 
-    }
+        height: auto;
+        transition: none;
+    } // override the width and height values whic were set on the mobile 
     header label {
         display: none;
     }

@@ -116,10 +116,10 @@ body > [type="checkbox"]:checked ~ header nav {
     transform: none;
     display: block;
     position: relative;
-    box-shadow: none; }
-  header nav {
+    box-shadow: none;
     width: auto;
-    height: auto; }
+    height: auto;
+    transition: none; }
   header label {
     display: none; }
   .navigation_container {
