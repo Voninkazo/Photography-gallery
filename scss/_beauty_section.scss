@@ -25,6 +25,10 @@
     padding-bottom: var(--article-text-verticle-padd);
 }
 
+.experience_information b {
+    font-family: 'Dm Sans Italic';
+}
+
 @media (min-width: 1114px) {
     .article_information {
         display: grid;

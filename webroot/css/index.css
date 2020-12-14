@@ -1,23 +1,35 @@
 @font-face {
-  font-family: 'dm-sans-regular';
+  font-family: 'Dm Sans';
   font-weight: 400;
   font-style: normal;
-  src: local("dm-sans-regular"), url(../fonts/dm_sans_400.woff) format("woff"), url(../fonts/dm_sans_400.woff2) format("woff2"); }
+  src: local("dm-sans-regular"), url(../fonts/dm_sans_400.woff2) format("woff2"), url(../fonts/dm_sans_400.woff) format("woff"); }
 
 @font-face {
-  font-family: 'dm-sans-bold';
+  font-family: 'Dm Sans SemiBold';
   font-weight: 600;
   font-style: normal;
-  src: local("dm-sans-bold"), url(../fonts/dm-sans-600.woff) format("woff"), url(../fonts/dm-sans-600.woff2) format("woff2"); }
+  src: local("dm-sans-bold"), url(../fonts/dm-sans-600.woff2) format("woff2"), url(../fonts/dm-sans-600.woff) format("woff"); }
 
 @font-face {
-  font-family: 'dm-serif-display-400';
+  font-family: 'Dm Sans Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local("dm-sans-bold"), url(../fonts/dm_sans_bold) format("woff2"), url(../fonts/dm_sans_bold.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Dm Serif Display';
   font-weight: 400;
   font-style: normal;
-  src: local("dm-serif-display-400"), url(../fonts/dm-serif-display-400.woff) format("woff"), url(../fonts/dm-serif-dispaly-400.woff2) format("woff2"); }
+  src: local("dm-serif-display-400"), url(../fonts/dm-serif-dispaly-400.woff2) format("woff2"), url(../fonts/dm-serif-display-400.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Dm Sans Italic';
+  font-weight: 400;
+  font-style: normal;
+  src: local("dm_sans_400_italic"), url(../fonts/dm_sans_400_italic.woff2) format("woff2"), url(../fonts/dm_sans_400_italic.woff) format("woff"); }
 
 body {
-  font-family: 'dm-sans-regular';
+  font-family: 'Dm Sans';
   background-color: rgba(67, 76, 204, 0.05); }
 
 div.container {
@@ -39,7 +51,7 @@ body > header {
   padding-top: var(--header-padd-vertical); }
 
 header h1 {
-  font-family: "dm-serif-display-400";
+  font-family: "Dm Serif Display";
   font-size: 24px;
   line-height: 32px;
   font-weight: normal;
@@ -105,7 +117,7 @@ body > [type="checkbox"]:checked ~ header nav {
     line-height: 24px; }
   .navigation_container a:hover {
     color: #000000;
-    font-family: 'dm-sans-bold';
+    font-family: 'Dm Sans Bold';
     transition: color 1s; }
 
 @media (min-width: 1114px) {
@@ -137,7 +149,7 @@ body > [type="checkbox"]:checked ~ header nav {
     color: rgba(0, 0, 0, 0.5); }
   .button_container p a:hover {
     color: #000000;
-    font-family: 'dm-sans-bold';
+    font-family: 'Dm Sans Bold';
     transition: color 1s; }
 
 ul {
@@ -149,7 +161,7 @@ a {
   text-decoration: none; }
 
 h2 {
-  font-family: "dm-serif-display-400";
+  font-family: "Dm Serif Display";
   color: #000000;
   font-size: 40px;
   line-height: 48px;
@@ -205,7 +217,9 @@ h2 {
     color: rgba(0, 0, 0, 0.5); }
   .detail_list_container p {
     color: #000000;
-    font-family: 'dm-sans-bold'; }
+    font-family: 'Dm Sans Bold'; }
+  .detail_list_container b {
+    font-family: 'Dm Sans Italic'; }
 
 @media (min-width: 1114px) {
   .photo_details {
@@ -236,6 +250,9 @@ h2 {
   mix-blend-mode: normal;
   padding-top: var(--article-text-verticle-padd);
   padding-bottom: var(--article-text-verticle-padd); }
+
+.experience_information b {
+  font-family: 'Dm Sans Italic'; }
 
 @media (min-width: 1114px) {
   .article_information {
@@ -332,7 +349,7 @@ div.subscribe {
   display: flex;
   flex-direction: column; }
   .email_input label {
-    font-family: 'dm-sans-bold';
+    font-family: 'Dm Sans Bold';
     font-size: 12px;
     line-height: 24px;
     color: #000000;
@@ -379,7 +396,7 @@ ul.list_secondary {
   color: rgba(0, 0, 0, 0.5); }
 
 .date {
-  font-family: 'dm-sans-bold';
+  font-family: 'Dm Sans Bold';
   font-size: 12px;
   line-height: 24px;
   color: #000000; }
@@ -403,10 +420,10 @@ div.photograph_more_links {
       color: rgba(0, 0, 0, 0.5); }
     div.photograph_more_links ul li a:hover {
       color: #000000;
-      font-family: 'dm-sans-bold';
+      font-family: 'Dm Sans Bold';
       transition: color 1s; }
   div.photograph_more_links ul li:nth-of-type(1) {
-    font-family: 'dm-sans-bold';
+    font-family: 'Dm Sans Bold';
     padding-bottom: calc(23px - var(--padding-list-value)); }
     div.photograph_more_links ul li:nth-of-type(1) a {
       color: #000000; }
@@ -437,7 +454,7 @@ body > footer {
   margin: 0;
   padding-bottom: calc(78px / 2); }
   .photograph_introduction h2 {
-    font-family: "dm-serif-display-400";
+    font-family: "Dm Serif Display";
     font-size: 24px;
     line-height: 32px;
     font-weight: normal;

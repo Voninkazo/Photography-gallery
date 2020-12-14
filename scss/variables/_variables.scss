@@ -1,6 +1,6 @@
 $bg-color-blue: #434CCC;
 $section-padding-horizontal: 14px;
-$heading-font-family:'dm-serif-display-400';
+$heading-font-family:'Dm Serif Display';
 $default-white-color: #ffffff;
 $small-link-font: 16px;
 $small-link-height:24px;
@@ -58,12 +58,12 @@ $img-border-radious:0.5rem;
 
 @mixin hover-link-style {
     color: $default-black-color;
-    font-family: 'dm-sans-bold';
+    font-family: 'Dm Sans Bold';
     transition: color 1s;
 }
 
 @mixin small-black-text {
-    font-family: 'dm-sans-bold';
+    font-family: 'Dm Sans Bold';
     font-size: 12px;
     line-height: 24px;
     color: $default-black-color;
