@@ -2,31 +2,25 @@
   font-family: 'Dm Sans';
   font-weight: 400;
   font-style: normal;
-  src: local("dm-sans-regular"), url(../fonts/dm_sans_400.woff2) format("woff2"), url(../fonts/dm_sans_400.woff) format("woff"); }
+  src: local("dm-sans-regular"), url(/dm_sans_400.ff73c047.woff2) format("woff2"), url(/dm_sans_400.f18055fd.woff) format("woff"); }
 
 @font-face {
   font-family: 'Dm Sans SemiBold';
   font-weight: 600;
   font-style: normal;
-  src: local("dm-sans-bold"), url(../fonts/dm-sans-600.woff2) format("woff2"), url(../fonts/dm-sans-600.woff) format("woff"); }
+  src: local("dm-sans-bold"), url(/dm-sans-600.57a86f31.woff2) format("woff2"), url(/dm-sans-600.031371df.woff) format("woff"); }
 
 @font-face {
   font-family: 'Dm Sans Bold';
   font-weight: 700;
   font-style: normal;
-  src: local("dm-sans-bold"), url(../fonts/dm_sans_bold.woff2) format("woff2"), url(../fonts/dm_sans_bold.woff) format("woff"); }
+  src: local("dm-sans-bold"), url(/dm_sans_bold.2f27f177.woff2) format("woff2"), url(/dm_sans_bold.962598e5.woff) format("woff"); }
 
 @font-face {
   font-family: 'Dm Serif Display';
   font-weight: 400;
   font-style: normal;
-  src: local("dm-serif-display-400"), url(../fonts/dm-serif-dispaly-400.woff2) format("woff2"), url(../fonts/dm-serif-display-400.woff) format("woff"); }
-
-@font-face {
-  font-family: 'Dm Sans Italic';
-  font-weight: 400;
-  font-style: normal;
-  src: local("dm_sans_400_italic"), url(../fonts/dm_sans_400_italic.woff2) format("woff2"), url(../fonts/dm_sans_400_italic.woff) format("woff"); }
+  src: local("dm-serif-display-400"), url(/dm-serif-display-400.a652a97f.woff2) format("woff2"), url(/dm-serif-display-400.4c76caee.woff) format("woff"); }
 
 body {
   font-family: 'Dm Sans';
@@ -481,3 +475,6 @@ body > footer {
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 75px; } }
+
+
+/*# sourceMappingURL=/scss.6b84482b.css.map */
