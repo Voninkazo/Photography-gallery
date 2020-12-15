@@ -26,9 +26,9 @@
     src: local('dm-serif-display-400'), url(../fonts/dm-serif-display-400.woff2) format('woff2'), url(../fonts/dm-serif-display-400.woff) format('woff');
 }
 
-// @font-face {
-//     font-family: 'Dm Sans Italic';
-//     font-weight: 400;
-//     font-style: normal;
-//     src: local('dm_sans_400_italic'), url(../fonts/dm_sans_400_italic.woff2) format('woff2'), url(../fonts/dm_sans_400_italic.woff) format('woff');
-// }
+@font-face {
+    font-family: 'Dm Sans Italic';
+    font-weight: 400;
+    font-style: normal;
+    src: local('dm_sans_400_italic'), url(../fonts/dm-sans-italic.woff2) format('woff2'), url(../fonts/dm-sans-italic.woff) format('woff');
+}

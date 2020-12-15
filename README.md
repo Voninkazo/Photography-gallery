@@ -6,7 +6,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://sandy-photograph-responsive.netlify.app/">
+    <a href="https://photograph-landing-sandy.netlify.app/">
       Solution
     </a>
   </h3>
