@@ -32,4 +32,4 @@ $ npm start
 ```
 
 ## Live app
-[https://photograph-landing-page-sandy.netlify.app](https://photograph-landing-page-sandy.netlify.app)
+[https://voninkazo.github.io/front-end-finals/](https://voninkazo.github.io/front-end-finals/)
