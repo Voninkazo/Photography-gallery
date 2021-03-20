@@ -1,24 +1,5 @@
 <h1 align="center">Photograph Responsive</h1>
 
-<div align="center">
-  <h3>
-    <a href="https://github.com/Voninkazo/front-end-finals">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://photograph-landing-sandy.netlify.app/">
-      Solution
-    </a>
-  </h3>
-</div>
-
-# Table of Contents
-
--   [Overview](#overview)
--   [How to use](#how-to-use)
--   [Contact](#contact)
-<!-- OVERVIEW -->
-
 ## Overview
 ![screenshot](./webroot/screenshots/edie-screenshot2.png)
 
@@ -33,9 +14,9 @@ This website is built with:
  - [Vanilla Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
-## Use
-
-<!-- Example: -->
+## Design
+You can find the desing online at:[ figma.com/Laaqiq-1-Portfolio-detail-Responsive](figma.com/Laaqiq-1-Portfolio-detail-Responsive)
+## How to use
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
@@ -50,6 +31,5 @@ $ npm install
 $ npm start
 ```
 
-## Contact
--   GitHub [@Voninkazo](https://github.com/Voninkazo)
-
+## Live app
+[https://photograph-landing-page-sandy.netlify.app](https://photograph-landing-page-sandy.netlify.app)
