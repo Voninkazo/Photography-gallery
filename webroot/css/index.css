@@ -203,7 +203,10 @@ h2 {
 
 @media (min-width: 1114px) {
   .image_container li img {
-    opacity: 0.5; } }
+    opacity: 0.5; }
+  .image_container li img:hover {
+    opacity: 1;
+    transition: opacity .5s; } }
 
 .photo_details {
   padding-top: 92px;
