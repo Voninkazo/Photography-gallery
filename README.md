@@ -1,9 +1,9 @@
 <h1 align="center">Photograph Responsive</h1>
 
 ## Overview
-![screenshot](./webroot/screenshots/edie-screenshot2.png)
+![screenshot](./assets/screenshot1.jpg)
 
-![screenshot](./webroot/screenshots/edie-screenshot1.png)
+![screenshot](./assets/screenshot2.jpg)
 
 ## Built With
 This website is built with:
