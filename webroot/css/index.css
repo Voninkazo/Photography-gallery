@@ -68,9 +68,7 @@ body > header > div {
   flex-direction: row;
   justify-content: space-between; }
 
-.icon_menu img {
-  width: 20px;
-  height: 16px;
+.icon_menu svg {
   cursor: pointer; }
 
 @media (min-width: 1114px) {
@@ -91,7 +89,7 @@ header nav {
   z-index: 3;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   transform: translateX(-110%);
-  transition: transform 0.3s;
+  transition: transform 0.8s;
   text-align: center;
   padding-top: 50px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
@@ -126,13 +124,8 @@ body > [type="checkbox"]:checked ~ header nav {
   cursor: pointer;
   right: 21px;
   top: 21px;
-  background: #ededed;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
   line-height: 20px;
   text-align: center;
-  border: 1px solid #999;
   font-size: 20px; }
 
 @media (min-width: 1114px) {
@@ -267,7 +260,8 @@ h2 {
   padding-bottom: var(--article-text-verticle-padd); }
 
 .experience_information b {
-  font-family: 'Dm Sans Italic'; }
+  font-family: 'Dm Sans Italic';
+  font-weight: normal; }
 
 @media (min-width: 1114px) {
   .article_information {
