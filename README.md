@@ -20,16 +20,14 @@ You can find the desing online at:[ figma.com/Laaqiq-1-Portfolio-detail-Responsi
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
 
-# Install dependencies
-$ npm install
+-  Clone this repository [https://github.com/Voninkazo/front-end-finals](https://github.com/Voninkazo/front-end-finals)
 
-# Run the app
-$ npm start
-```
+-  Install dependencies
+**$ npm install**
+
+- Run the app by **$ npm start**
+
 
 ## Live app
 [https://photograph-landing-page-sandy.netlify.app](https://photograph-landing-page-sandy.netlify.app)
