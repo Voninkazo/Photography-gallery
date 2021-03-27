@@ -150,7 +150,8 @@ body > [type="checkbox"]:checked ~ header nav {
 
 .button_container p {
   padding-top: 31px;
-  padding-bottom: 61px; }
+  padding-bottom: 61px;
+  margin: 0; }
   .button_container p a {
     font-size: 16px;
     line-height: 24px;
@@ -159,6 +160,11 @@ body > [type="checkbox"]:checked ~ header nav {
     color: #EB5757;
     font-family: 'Dm Sans Bold';
     transition: color 1s; }
+
+@media (min-width: 1114px) {
+  .button_container p {
+    padding-top: 47px;
+    padding-bottom: 38px; } }
 
 ul {
   list-style: none;
@@ -195,11 +201,14 @@ h2 {
 .image_container {
   display: flex;
   flex-direction: row;
-  overflow: hidden; }
+  overflow: scroll; }
   .image_container li:not(:nth-of-type(1)) {
     margin-inline-start: 9px; }
   .image_container li img {
     width: 131px; }
+
+.image_container::-webkit-scrollbar {
+  display: none; }
 
 @media (min-width: 1114px) {
   .image_container li img {
@@ -247,7 +256,10 @@ h2 {
 .carve-information {
   font-size: 18px;
   line-height: 32px;
-  color: #000000; }
+  color: #000000;
+  margin: 0;
+  padding-top: 31px;
+  padding-bottom: 38px; }
 
 .beauty_section_text p {
   margin: 0;
@@ -259,8 +271,7 @@ h2 {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.5);
   mix-blend-mode: normal;
-  padding-top: var(--article-text-verticle-padd);
-  padding-bottom: var(--article-text-verticle-padd); }
+  padding-bottom: 31px; }
 
 .experience_information b {
   font-family: 'Dm Sans Italic';
@@ -269,7 +280,8 @@ h2 {
 @media (min-width: 1114px) {
   .article_information {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 157px; }
   .carve_details {
     padding-top: 87px;
     padding-bottom: 76px; }
@@ -306,7 +318,9 @@ h2 {
   line-height: 24px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: #000000; }
+  color: #000000;
+  margin: 0;
+  padding-bottom: 19px; }
 
 div.subscribe {
   padding-top: 44px; }
@@ -471,6 +485,10 @@ body > footer {
     line-height: 32px;
     font-weight: normal;
     text-transform: uppercase; }
+  .photograph_introduction p {
+    margin: 0;
+    padding-top: 22px;
+    padding-bottom: 25px; }
 
 @media (min-width: 1114px) {
   body > footer > div:nth-of-type(1) {

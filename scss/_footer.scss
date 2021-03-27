@@ -21,6 +21,11 @@ body>footer {
     @include gray-paragraph;
     margin: 0;
     padding-bottom: calc(78px / 2);
+    p {
+        margin: 0;
+        padding-top: 22px;
+        padding-bottom: 25px;
+    }
 }
 
 @media (min-width:1114px) {

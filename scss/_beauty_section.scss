@@ -10,6 +10,9 @@
 
 .carve-information {
     @include black-article-paragraph;
+    margin: 0;
+    padding-top: 31px;
+    padding-bottom: 38px;
 }
 
 .beauty_section_text p {
@@ -21,8 +24,9 @@
 .experience_information {
     @include gray-paragraph;
     mix-blend-mode: normal;
-    padding-top: var(--article-text-verticle-padd);
-    padding-bottom: var(--article-text-verticle-padd);
+    //padding-top: var(--article-text-verticle-padd);
+    padding-bottom: 31px;
+    //margin: 0;
 }
 
 .experience_information b {
@@ -34,6 +38,7 @@
     .article_information {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 157px;
     }
     .carve_details {
         padding-top: 87px;

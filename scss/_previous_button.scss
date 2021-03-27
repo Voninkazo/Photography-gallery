@@ -2,10 +2,18 @@
 .button_container p {
     padding-top: 31px;
     padding-bottom: 61px;
+    margin: 0;
     a {
         @include gray-paragraph;
     }
     a:hover {
         @include hover-link-style;
+    }
+}
+
+@media(min-width: 1114px) {
+    .button_container p {
+        padding-top: 47px;
+        padding-bottom: 38px;
     }
 }
