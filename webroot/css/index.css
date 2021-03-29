@@ -338,7 +338,7 @@ div.subscribe {
   .section_subscribe .section_subscribe__wrapper {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between; }
     .section_subscribe .section_subscribe__wrapper div.subscribe {
       padding-top: 0; }
