@@ -34,12 +34,12 @@ body>footer {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             column-gap: 130px;
+            padding-bottom: 75px;
         }
         >div:nth-of-type(2) {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            padding-bottom: 75px;
         }
     }
 }

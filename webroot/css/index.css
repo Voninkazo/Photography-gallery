@@ -282,6 +282,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 157px; }
+  .carve-information {
+    padding-bottom: 0; }
   .carve_details {
     padding-top: 87px;
     padding-bottom: 76px; }
@@ -290,8 +292,8 @@ h2 {
   .beauty_section_text p {
     max-width: 585px;
     margin: 0;
-    padding-top: var(--beauty-text-verticle-padd);
-    padding-bottom: var(--beauty-text-verticle-padd); } }
+    padding-top: 61px;
+    padding-bottom: 69px; } }
 
 .icon_list_container {
   display: flex;
@@ -349,14 +351,13 @@ div.subscribe {
   background-color: #434CCC;
   text-align: center;
   border-radius: 0.5rem;
-  width: 170px; }
-  .subscribe_button a {
-    font-size: 16px;
-    line-height: 24px;
-    color: #ffffff;
-    padding-top: var(--btn-padding-vertical-start);
-    padding-bottom: var(--btn-padding-vertical-end);
-    display: block; }
+  width: 170px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  display: block; }
 
 .subscribe_button:hover {
   background-color: #0000CD;
@@ -494,9 +495,9 @@ body > footer {
   body > footer > div:nth-of-type(1) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 130px; }
+    column-gap: 130px;
+    padding-bottom: 75px; }
   body > footer > div:nth-of-type(2) {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 75px; } }
+    justify-content: space-between; } }

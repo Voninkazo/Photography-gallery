@@ -40,6 +40,9 @@
         grid-template-columns: repeat(2, 1fr);
         column-gap: 157px;
     }
+    .carve-information {
+        padding-bottom: 0;
+    }
     .carve_details {
         padding-top: 87px;
         padding-bottom: 76px;
@@ -51,8 +54,10 @@
         p {
             max-width: 585px;
             margin: 0;
-            padding-top: var(--beauty-text-verticle-padd);
-            padding-bottom: var(--beauty-text-verticle-padd);
+            // padding-top: var(--beauty-text-verticle-padd);
+            // padding-bottom: var(--beauty-text-verticle-padd);
+            padding-top: 61px;
+            padding-bottom: 69px;
         }
     }
 }

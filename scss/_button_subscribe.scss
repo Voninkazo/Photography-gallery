@@ -9,14 +9,14 @@
     text-align: center;
     border-radius: $img-border-radious;
     width: 170px;
-    a {
-        font-size: $small-link-font;
-        line-height: $small-link-height;
-        color: $default-white-color;
-        padding-top: var(--btn-padding-vertical-start);
-        padding-bottom: var(--btn-padding-vertical-end);
-        display: block;
-    }
+    font-size: $small-link-font;
+    line-height: $small-link-height;
+    color: $default-white-color;
+    // padding-top: var(--btn-padding-vertical-start);
+    // padding-bottom: var(--btn-padding-vertical-end);
+    padding-top: 13px;
+    padding-bottom: 11px;
+    display: block;
 }
 
 .subscribe_button:hover {
