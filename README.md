@@ -11,11 +11,12 @@ This website is built with:
 
  - [SCSS](https://sass-lang.com/guide)
 
- - [Vanilla Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+ - [Vanilla JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
 ## Design
 You can find the desing online at:[ figma.com/Laaqiq-1-Portfolio-detail-Responsive](figma.com/Laaqiq-1-Portfolio-detail-Responsive)
+
 ## How to use
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
@@ -23,10 +24,9 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 -  Clone this repository [https://github.com/Voninkazo/front-end-finals](https://github.com/Voninkazo/front-end-finals)
 
--  Install dependencies
-**$ npm install**
+-  Install dependencies with `npm install`
 
-- Run the app by **$ npm start**
+- Run the app with `npm start`
 
 
 ## Live app
